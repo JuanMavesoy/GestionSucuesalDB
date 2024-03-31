@@ -1,0 +1,101 @@
+INSERT INTO [SucursalesDB].[dbo].[Sucursal]
+       ([Nombre]
+       ,[Direccion]
+       ,[Telefono]
+       ,[CorreoElectronico]
+       ,[HorarioAtencion]
+       ,[GerenteSucursal]
+       ,[Moneda]
+       ,[FechaCreacion]
+       ,[CreadoPor]
+       ,[FechaUltimaActualizacion]
+       ,[ModificadoPor])
+VALUES
+       ('Sucursal Centro'
+       ,'Calle Principal 123'
+       ,'5501234567'
+       ,'centro@sucursal.com'
+       ,'L-V: 9am-6pm, S: 10am-2pm'
+       ,'Ana Pérez'
+       ,0
+       ,CURRENT_TIMESTAMP
+       ,2
+       ,CURRENT_TIMESTAMP
+       ,2),
+       ('Sucursal Norte'
+       ,'Avenida Libertad 789'
+       ,'5509876543'
+       ,'norte@sucursal.com'
+       ,'L-V: 8am-8pm, S: 9am-3pm'
+       ,'José Martín'
+       ,1
+       ,CURRENT_TIMESTAMP
+       ,3
+       ,CURRENT_TIMESTAMP
+       ,3),
+       ('Sucursal Este'
+       ,'Boulevard Oriente 456'
+       ,'5505678901'
+       ,'este@sucursal.com'
+       ,'L-V: 10am-7pm, D: 11am-4pm'
+       ,'Laura Vidal'
+       ,1
+       ,CURRENT_TIMESTAMP
+       ,4
+       ,CURRENT_TIMESTAMP
+       ,4),
+       ('Sucursal Oeste'
+       ,'Callejón del Valle 321'
+       ,'5501230987'
+       ,'oeste@sucursal.com'
+       ,'L-S: 9am-5pm'
+       ,'Marco Antonio'
+       ,0
+       ,CURRENT_TIMESTAMP
+       ,5
+       ,CURRENT_TIMESTAMP
+       ,5),
+       ('Sucursal Sur'
+       ,'Camino al Sur 213'
+       ,'5507890123'
+       ,'sur@sucursal.com'
+       ,'L-V: 8am-4pm, S: 10am-2pm'
+       ,'Sofía Loren'
+       ,0
+       ,CURRENT_TIMESTAMP
+       ,6
+       ,CURRENT_TIMESTAMP
+       ,6),
+       ('Sucursal Reforma'
+       ,'Paseo de la Reforma 1234'
+       ,'5506543210'
+       ,'reforma@sucursal.com'
+       ,'L-V: 9am-9pm, S-D: 10am-6pm'
+       ,'Ricardo Díaz'
+       ,1
+       ,CURRENT_TIMESTAMP
+       ,7
+       ,CURRENT_TIMESTAMP
+       ,7),
+       ('Sucursal Revolución'
+       ,'Avenida Revolución 4321'
+       ,'5506789012'
+       ,'revolucion@sucursal.com'
+       ,'L-V: 7am-3pm'
+       ,'Patricia Mora'
+       ,1
+       ,CURRENT_TIMESTAMP
+       ,8
+       ,CURRENT_TIMESTAMP
+       ,8),
+       ('Sucursal Universitaria'
+       ,'Calle Universidad 987'
+       ,'5503456789'
+       ,'universitaria@sucursal.com'
+       ,'L-V: 9am-5pm, S: 9am-12pm'
+       ,'Ernesto Gómez'
+       ,0
+       ,CURRENT_TIMESTAMP
+       ,9
+       ,CURRENT_TIMESTAMP
+       ,9);
